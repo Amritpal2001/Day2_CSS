@@ -1,60 +1,57 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
-body {
-	
-}
+body {}
 
 .topnav {
-	height: 70px;
-  background-color: #fff;
+  height: 70px;
+  background-color: white;
 }
 
-li{
+li {
   list-style-type: none;
-  float: right;
-  /*float: left;*/
 }
 
-.logo{
-  /*float: none;*/
-  /*display: inline-block;*/
+.logo {
   float: left;
-	font-family: 'Luckiest Guy', cursive;
-	font-size: 50px;
-	margin:20px 20px 0px 40px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 50px;
+  margin: 20px 20px 0px 40px;
 }
-li a {
-  display: block;
-	margin: 20px;
-	font-size: 22px;
+
+.topnav a {
+  margin: 20px;
+  font-size: 22px;
   text-decoration: none;
+  float: right;
 }
 
 
-.mid{
-	height: 500px;
-	background-image: url("img_girl.jpg");
-	background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: cover;
-	  text-align: center;
-	  color: white;
-	  font-size: 60px;
+.mid {
+  height: 500px;
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 
 }
-.mid h1{
+
+.mid-text{
+  font-size: 90px;
+  font-weight: bold;
+  color: white;
   position: relative;
-	/*display: inline-block;*/
-  top:150px;
-	/*margin-top: 10%; */
+  top: 170px;
 }
+
+
 
 .row {
-	margin: 100px 0px;
+  margin: 100px 0px;
 }
 
 .row:after {
@@ -62,11 +59,13 @@ li a {
   display: table;
   clear: both;
 }
+
 .column {
   float: left;
   width: 25%;
   padding: 0 10px;
 }
+
 .card {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 16px;
@@ -77,26 +76,27 @@ li a {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
-    /*display: block;*/
     margin-bottom: 20px;
   }
 }
 
 
-.card-img{
-	height: 200px;
-	background-position: center;
+.card-img {
+  height: 200px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .footer {
   background-color: #f1f1f1;
   padding: 10px;
   text-align: center;
   height: 300px;
 }
-button{
-	background-color: #4CAF50;
+
+button {
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -107,8 +107,9 @@ button{
   transition-duration: 0.4s;
   border: 2px solid #4CAF50;
 }
-button:hover{
-	background-color: white;
-	color: #4CAF50;
-	border: 2px solid #4CAF50;
+
+button:hover {
+  background-color: white;
+  color: #4CAF50;
+  border: 2px solid #4CAF50;
 }
